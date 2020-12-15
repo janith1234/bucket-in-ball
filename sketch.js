@@ -8,13 +8,13 @@ var world;
 
 
 function setup() {
-	createCanvas(1600, 650);
+	createCanvas(1200,660);
 	rectMode(CENTER);
 
 
 	engine = Engine.create();
 	world = engine.world;
-	dustbinObj = new dustbin(1200, 600);
+	dustbinObj = new dustbin(800, 600);
 	paperObject = new Ball(200, 450, 40);
 	groundObject = new Ground(width / 2, 670, width, 20);
 	//Create a Ground
